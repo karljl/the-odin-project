@@ -186,3 +186,41 @@ body {
   font-family: serif;
   font-size: 18px;
 }
+
+.call-to-action {
+  display: flex;
+  height: 400px;
+  background-color: #e5e7eb;
+  padding: 0 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10vw;
+  background-color: #3882f6;
+  height: 200px;
+  width: 100%;
+  border-radius: 16px;
+}
+
+.action-box .text {
+  color: #e5e7eb;
+}
+
+.action-box button {
+  background-color: #3882f6;
+  padding: 10px 30px;
+  color: #f9faf8;
+  border-radius: 16px;
+  border: 2px solid #e5e7eb;
+  transition: background-color 0.5s;
+}
+
+.action-box button:hover {
+  background-color: #e5e7eb;
+  color: #3882f6;
+}
